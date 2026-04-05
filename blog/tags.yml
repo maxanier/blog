@@ -1,0 +1,9 @@
+travel:
+  label: Travel
+  permalink: /travel
+  description: Random travel tips
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Random Linux related IT notes

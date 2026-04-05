@@ -1,0 +1,41 @@
+---
+slug: cusco
+title: Peru-Cusco and around
+authors: max
+tag: travel
+---
+
+If you are planning to do things around Cusco independently instead of a guided tour, here are some random hints.
+<!--truncate-->
+## To Salinas de Maras (via Urubamba)
+<img src="salinas.jpg" alt="Photograph of Salinas"/>
+If you are interested in hiking a few hours and visit the Salinas de Maras and Maras along the way, I can recommend the following one-way hike:
+#### How to get there
+Take a "Combi" aka shared "bus" (Ford Transit type) from Cusco to Urubamba (8 soles, cash, fixed price).
+There is no timetable, they leave once they are mostly full.
+On the opposite side of the street there are also shared cars, but they seemed dubious to us and are likely more expensive and not faster.
+> Location: `geo:-13.52392,-71.97760?z=16`  
+https://osmand.net/map?pin=-13.52392,-71.97760#16/-13.52392/-71.97760
+
+Once in Urubamba, either take a tuk-tuk taxi or walk to the start of the road.
+
+#### How to get back
+At the end of the hike, you can either try to catch one of the Combis going back from Urubamba (if you spot them and signal them, they will stop unless full) or a Collectivo/Bus (they clearly have Cusco, or sometimes still Urubamba) in the front window.
+In both cases you pay a similar amount (on disembarking), but the Combi is faster.
+
+
+## Excellent (vegan) restaurants
+Not boring vegan food, but tasty and interesting dishes.
+
+#### Vida Vegan
+Standort: geo:-13.51617,-71.97658?z=18
+https://osmand.net/map?pin=-13.51617,-71.97658#18/-13.51617/-71.97658
+
+##### Green Point
+Standort: geo:-13.51565,-71.97375?z=18
+https://osmand.net/map?pin=-13.51565,-71.97375#18/-13.51565/-71.97375
+
+##### CHÍA Plant Based restaurant
+Location: geo:-13.51478,-71.97509?z=20
+https://osmand.net/map?pin=-13.51478,-71.97509#20/-13.51478/-71.97509
+
