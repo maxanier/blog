@@ -32,8 +32,21 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','de'],
   },
+
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 3, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -41,7 +54,12 @@ const config: Config = {
       {
         docs: false,
         blog: {
-          showReadingTime: true,
+          blogTitle: 'Max\' random blog',
+          blogDescription: 'A wild mix!',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          showReadingTime: false,
           routeBasePath: '/', // Serve the blog at the site's root
           feedOptions: {
             type: ['rss', 'atom'],
@@ -86,11 +104,11 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Github',
+              label: 'My Github',
               href: 'https://github.com/maxanier',
             },
             {
-              label: 'Gitlab',
+              label: 'My Gitlab',
               href: 'https://gitlab.com/maxanier',
             },
             {

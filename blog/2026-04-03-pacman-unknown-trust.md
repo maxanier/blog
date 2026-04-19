@@ -9,7 +9,7 @@ When updating packages (after a long time), sometimes all packages are considere
 `invalid or corrupted package (PGP signature))` `Unknown trust.`
 
 To fix on Manjaro:
-<!-- truncate -->
+{/* truncate */}
 ```
 sudo pacman -Syy
 sudo pacman-key --refresh-keys
