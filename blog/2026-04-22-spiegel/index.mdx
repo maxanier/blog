@@ -1,0 +1,40 @@
+---
+slug: smartmirror
+title: DE - Smart Mirror / Magic Mirror
+authors: max
+lang: de
+---
+import Image from '@theme/IdealImage';
+
+Vor vielen Jahren habe ich einen "Magic Mirror" gebaut.
+<Image img={require('./spiegel.jpg')}/>
+Also ein Spiegel der in der Spiegelfläche Text anzeigen kann, im Idealfall ohne dass ein Display erkennbar ist.
+
+{/* truncate */}
+
+
+Als Grundlage diente dazu:
+
+- Spiegelfläche fest zusammengebaut aus:
+  - Plexiglasscheibe mit Einweg Spiegel Folie
+  - Holzgerüst zur Wandaufhängung
+  - Aluprofile als Rahmen
+  - Es ist kein ganz perfekter Spiegel, aber ein sehr guter. Teilweise ist eine minimale Verzerrung vorhanden
+- Diplaypanel mit Steuerplatine (mit HDMI Anschluss)
+  - Angebracht auf der Rückseite des Einwegsspiegels.
+  - Das Backlight ist leider etwas durchscheinend. Man sieht also nicht nur die weiße Schrift, sondern (leicht) auch das "schwarz" leuchten
+- Netzteil (230V zu 5V und 12V)
+- Roter LED Streifen (12V)
+
+Gesteuert wurde das ganze mit einem Raspberry Pi mit [MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror).
+Eingerichtet hatte ich u.A. folgendes:
+- Abfahrtsanzeige der DVB
+- Uhrzeit + Wetter
+- Ein blinkenender LED Streifen, wenn einer meiner Fenstersensoren ein lange offenstehendes Fenster meldet (im Winter)
+- Kalender (mit Gesichtserkennung für persönliche Kalender bei mehreren Nutzern über im Spiegel verbaute Raspberry Kamera, funktionierte mittelmäßig)
+- Automatische Abschaltung des Displays nach wenigen Minuten und Anschalten bei Bewegungserkennung
+
+
+Dies ist eine verbesserte Version (stabilerer Rahmen, größeres Display) der ersten Version:
+
+<Image img={require('./alter_spiegel.jpg')}/>
